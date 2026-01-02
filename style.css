@@ -5,12 +5,37 @@ body {
 
 p {
   font-size: 20px;
-  font-family: 'Gau_Exposition_W';
+  font-family: 'NewYork';
   color: #8B5D33;
   text-align: center;
 }
 
 @font-face {
-    font-family: 'Gau_Exposition_W'; 
-        src: url('Gau_Exposition_W.TTF'); 
+    font-family: 'NewYork'; 
+        src: url('NewYork.ttf'); 
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+li {
+  height: 40vh;
+  flex-grow: 1;
+}
+
+img {
+  max-height: 100%;
+  min-width: 100%;
+  object-fit: cover;
+  vertical-align: bottom;
 }
